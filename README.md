@@ -8,5 +8,5 @@ At the very beginning I think this would be a good practice for time series pred
 
 For the sake of precision, I build models for each type of product then store them in a dict. Since most of the features are categorical, I use catboost as the basic model.
 
-I believe there are lots to do in the future for this model, as the basic models are almost not tuned because I'm not familiar with catboost:(, and the information of holidays and locations is not fully leveraged.
+Now it got rank 165/781. I believe there are lots to do in the future for this model, as the basic models are almost not tuned because I'm not familiar with catboost:(, and the information of holidays and locations is not fully leveraged.
 
